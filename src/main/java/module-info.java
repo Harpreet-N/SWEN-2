@@ -22,6 +22,7 @@ module at.technikum.tour_planner {
     requires okhttp3;
     requires org.apache.tomcat.embed.core;
     requires opencsv;
+    requires java.desktop;
 
     opens at.technikum.tour_planner to javafx.fxml;
     exports at.technikum.tour_planner;
